@@ -1,0 +1,64 @@
+.flex-container {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.board-container {
+  height: 100%;
+  width: 100%;
+}
+.board {
+  width: 318px;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  border: 3px solid rgba(58, 16, 16, 0.918);
+}
+.square:hover {
+  background-color: cyan;
+  transition: 0.4s;
+}
+h1 {
+  text-align: center;
+  color: aquamarine;
+  background-color: black;
+  font-family: monospace;
+  border: 15px solid cyan;
+  padding: 10px;
+}
+h1:hover {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+.notice-board {
+  padding-top: 30px;
+  align-items: center;
+}
+#notice {
+  border: 6px solid white;
+  border-radius: 20px;
+  position: relative;
+  left: 23%;
+  width: 50%;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  padding: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#notice:hover {
+  background-color: cyan;
+  border-color: black;
+  color: black;
+}

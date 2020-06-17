@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="game.js"></script>
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body>
+    <h1>
+      Tic Tac Toe
+    </h1>
+    <div class="board-container flex-container flex-column flex-center">
+      <div class="board flex-container flex-wrap" id="board-box">
+        <div class="square" id="sq-1" onclick="play(event,1)"></div>
+        <div class="square" id="sq-2" onclick="play(event,2)"></div>
+        <div class="square" id="sq-3" onclick="play(event,3)"></div>
+        <div class="square" id="sq-4" onclick="play(event,4)"></div>
+        <div class="square" id="sq-5" onclick="play(event,5)"></div>
+        <div class="square" id="sq-6" onclick="play(event,6)"></div>
+        <div class="square" id="sq-7" onclick="play(event,7)"></div>
+        <div class="square" id="sq-8" onclick="play(event,8)"></div>
+        <div class="square" id="sq-9" onclick="play(event,9)"></div>
+      </div>
+    </div>
+    <div class="notice-board">
+      <h3 id="notice">Think and Play</h3>
+    </div>
+  </body>
+</html>
